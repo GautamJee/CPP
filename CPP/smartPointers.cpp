@@ -31,7 +31,7 @@ public:
 		std::cout << "print function" << std::endl;
 	}
 };
-int smart() {
+int smartPointers() {
 	{
 		std::unique_ptr<Entity> p = std::make_unique<Entity>();
 		p->Print();

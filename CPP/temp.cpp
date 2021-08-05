@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+int temp() {
 
 	int n = 0, k, x;
 	cin >> n >> k;

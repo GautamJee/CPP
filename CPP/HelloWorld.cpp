@@ -1,4 +1,5 @@
-#include <iostream>
-int helloWorld() {
-	std::cout << "Hello World!";
+#include "Log.h"
+int main() {
+	InitLog();
+	Log("hello world");
 }

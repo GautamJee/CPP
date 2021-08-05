@@ -30,6 +30,7 @@ int findsmallest(std::vector<int> vec, int n)
 		{
 			return i;
 		}
+	return 0;
 }
 int s()
 {

@@ -1,5 +1,6 @@
 #include "Log.h"
-int main() {
+int HelloWorld() {
 	InitLog();
 	Log("hello world");
+	return 0;
 }

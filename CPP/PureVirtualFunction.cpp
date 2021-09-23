@@ -12,9 +12,7 @@ virtual <return_type> func()=0;   //pure-virtual function
 #include <iostream>
 class A {
 public:
-	virtual void display(){
-		std::cout << "display() of class A"<<std::endl;
-	}
+	virtual void display() = 0;		//force other classes to declare their own code
 
 };
 
@@ -25,7 +23,7 @@ public:
 	}
 };
 
-int virtualFunction() {
+int main() {
 	A* a;
 	B b;
 	a = &b;

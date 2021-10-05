@@ -23,7 +23,7 @@ public:
 	}
 };
 
-int main() {
+int purevirtualfunction() {
 	A* a;
 	B b;
 	a = &b;
